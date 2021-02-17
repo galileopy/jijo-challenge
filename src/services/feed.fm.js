@@ -3,9 +3,6 @@ import { CurrentSong } from "../redux/actions";
 import { Resource } from "ghost-stories/dist/unions/Resource";
 
 const PLAY_STARTED = "play-started";
-const PLAY_COMPLETED = "play-completed";
-const STATIONS = "stations";
-const STATION_CHANGED = "station-changed";
 
 export const player = new Feed.Player("demo", "demo");
 

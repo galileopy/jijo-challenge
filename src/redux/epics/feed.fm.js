@@ -1,15 +1,7 @@
-import { from } from "rxjs";
 import { combineEpics, ofType } from "redux-observable";
-import { ignoreElements, map, mergeMap, tap } from "rxjs/operators";
+import { ignoreElements, tap } from "rxjs/operators";
 
-import {
-  PlayMusic,
-  StopMusic,
-  SkipMusic,
-  PLAY_MUSIC,
-  STOP_MUSIC,
-  SKIP_MUSIC,
-} from "../actions";
+import { PLAY_MUSIC, STOP_MUSIC, SKIP_MUSIC } from "../actions";
 
 import { player } from "../../services/feed.fm";
 
