@@ -81,11 +81,11 @@ const Player = () => {
         </CardContent>
         <CardActions className={classes.controls}>
           {playing ? (
-            <IconButton onClick={onStop} aria-label="play/pause">
+            <IconButton onClick={onStop} aria-label="pause">
               <PauseIcon className={classes.playIcon} />
             </IconButton>
           ) : (
-            <IconButton onClick={onPlay} aria-label="play/pause">
+            <IconButton onClick={onPlay} aria-label="play">
               <PlayArrowIcon className={classes.playIcon} />
             </IconButton>
           )}
