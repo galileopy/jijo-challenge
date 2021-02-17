@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# JIJO Challenge App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is assumed that the reader has `node` and either `yarn` or `npm` installed
+
+Once the source code is downloaded you first need to go to the project directory and run the following command
+
+## Try the application
+
+```bash
+$ cd ./jijo-challenge
+# with yarn
+$ yarn
+# with npm 
+$ npm install
+
+```
+
+
+In order to try the app just run the script `yarn start` if you have yarn installed, otherwise you can use `npm start`.
+
+Application will start on `localhost:3000`
+
+## Running tests
+
+```bash
+$ cd ./jijo-challenge
+# with yarn
+$ yarn test
+# with npm 
+$ npm test
+```
+
+And follow the instruccions on screen
+
 
 ## Available Scripts
 
@@ -10,9 +41,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `yarn test`
 
